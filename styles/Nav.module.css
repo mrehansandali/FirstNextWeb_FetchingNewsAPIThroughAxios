@@ -1,0 +1,85 @@
+.mrcontainer a {
+    text-align: center !important;
+    margin-top: -0.2rem;
+}
+
+.mrcontainer a h1 {
+    color: red;
+    font-size: 3rem;
+}
+
+.mrcontainer a span {
+    font-size: 1.8rem;
+    color: rgb(55, 78, 94);
+}
+
+.mruser img {
+    width: 3rem;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mrul {
+    display: flex;
+    align-items: center;
+}
+.mrul li a:hover {
+    color: rgb(38, 152, 238) !important;
+}
+.searchInput {
+    position: relative;
+}
+
+.mrsearchField {
+    border-radius: 0.4rem;
+    border: 0.01rem solid grey;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    font-size: 1rem;
+}
+.mrlogo{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.mrsearchbtn {
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.mrform .searchInput button{
+    color: grey;
+}
+.mrform .searchInput input::placeholder{
+    color: grey;
+    font-weight: 600;
+}
+.mrLI{
+    font-weight: 600;
+    color: rgb(55, 78, 94) !important;
+}
+.mrmsg span {
+    color: rgb(38, 152, 238) !important;
+    font-size: 1.3rem !important;
+}
+
+@media (max-width:991px) {
+    .mrform {
+        display: none !important;
+    }
+    .mrlogo{
+        margin-top: 0.8rem;
+    }
+    .mrNR .mrTI{
+        width: 1.5rem;
+    }
+    .mrul{
+        padding: 0.5rem 0;
+        background: linear-gradient(rgba(0, 0, 1, 0.137),rgba(0, 0, 1, 0.104));
+    }
+}
